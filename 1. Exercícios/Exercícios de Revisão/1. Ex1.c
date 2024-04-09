@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-main() {
+main() { 
 
 	char letra;
 	
