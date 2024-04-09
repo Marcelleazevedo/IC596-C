@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 main() { 
-
+ 
 	char letra;
 	
 	printf("Digite a letra \"F\" para \"Feminino\" ou a letra \"M\" para \"Masculino\":\n");
