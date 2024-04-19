@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-main() {
+void main() {
 
 	int i;
 	float num, soma;

@@ -19,7 +19,7 @@
 
 #include <stdio.h>
 
-main(){
+void main(){
 
 	int codigo, codigoAlto, codigoBaixo, codigoGordo, codigoMagro, contador;
 	float peso, altura, maisAlto, maisBaixo, maisGordo, maisMagro, somaAltura, somaPeso;

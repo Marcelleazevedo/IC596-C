@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-main() {
+void main() {
 
 	int num, i, idade, soma;
 	float media;

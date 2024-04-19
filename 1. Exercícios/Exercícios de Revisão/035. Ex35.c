@@ -3,9 +3,9 @@
 
 #include <stdio.h>
 
-main() {
+void main() {
 
-	int i, idade[3], altura[3], soma, total;
+	int i, idade[30], altura[30], soma, total;
 	float media;
 
 	soma = 0;
@@ -22,7 +22,7 @@ main() {
 
 	} // Final do for
 
-	media = soma / 3;
+	media = soma / 30;
 
 	printf("%d", soma);
 

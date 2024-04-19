@@ -14,7 +14,7 @@
 
 #include <stdio.h>
 
-main(){
+void main(){
 
 	int contagem;
 	char r1, r2, r3, r4, r5;

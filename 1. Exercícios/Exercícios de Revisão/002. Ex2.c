@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-main() {
+void main() {
 
 	char letra;
 

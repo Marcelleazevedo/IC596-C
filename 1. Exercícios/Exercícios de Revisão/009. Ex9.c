@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 
-main() {
+void main() {
 
 	float num1, num2, resultado;
 	char operacao;

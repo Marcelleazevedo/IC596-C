@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-main() {
+void main() {
 
 	float produto1, produto2, produto3;
 

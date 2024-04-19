@@ -14,7 +14,7 @@
 
 #include <stdio.h>
 
-main(){
+void main(){
 
 	float combustivel;
 	char tipo;

@@ -10,7 +10,7 @@
 
 #include <stdio.h>
 
-main() {
+void main() {
 
 	int num, i;
 

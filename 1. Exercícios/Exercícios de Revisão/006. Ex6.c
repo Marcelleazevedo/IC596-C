@@ -14,7 +14,7 @@
 
 #include <stdio.h>
 
-main(){
+void main(){
 
 	float salario, novosalario;
 	int porcentagem;

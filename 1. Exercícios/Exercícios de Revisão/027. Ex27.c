@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-main(){
+void main(){
 
 	int cds, i;
 	float preco, soma, media;

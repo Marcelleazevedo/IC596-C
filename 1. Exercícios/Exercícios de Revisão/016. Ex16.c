@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 
-main() {
+void main() {
 
 	int num1, num2, i, soma;
 

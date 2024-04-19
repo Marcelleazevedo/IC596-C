@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-main() {
+void main() {
 
 	float preco;
 	char codigo;

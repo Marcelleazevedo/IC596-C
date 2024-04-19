@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-main() {
+void main() {
 
 	int turmas, i, alunos, soma;
 	float media;
@@ -38,7 +38,7 @@ main() {
 
 	} // for fim
 
-	media = (float)soma / (float)turmas;
+	media = (float)soma / turmas;
 
 	printf("A média de alunos nas %d turmas é de %.2f", turmas, media);
 

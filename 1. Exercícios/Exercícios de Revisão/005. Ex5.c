@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-main() {
+void main() {
 
 	char turno;
 

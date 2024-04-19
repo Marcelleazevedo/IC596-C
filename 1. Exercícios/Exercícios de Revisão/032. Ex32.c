@@ -13,10 +13,11 @@
 
 #include <stdio.h>
 
-main(){
+void main(){
 
 	int voto, can1, can2, can3, can4, nulo, branco, total, porcentagemNulo, porcentagemBranco;
-
+	float porcentagem1, porcentagem2;
+	
 	do {
 
 		printf("Digite o número do candidato para votar nele:\n\n");
@@ -77,12 +78,18 @@ main(){
 	// d) A percentagem de votos nulos sobre o total de votos;
 
 	total = can1 + can2 + can3 + can4 + nulo + branco;
+	
+	porcentagem1 = (float)(nulo*100)/total;
 
-	printf("Porcentagem de votos nulos: %.2f%\n", (float)(nulo*100)/total);
+	printf("Porcentagem de votos nulos: %.2f%%\n", porcentagem1);
 
 	// e) A percentagem de votos em branco sobre o total de votos. Para finalizar o conjunto de votos tem-se o valor zero.
 
-	printf("Porcentagem de votos em branco: %.2f%\n", (float)(branco*100)/total);
+	porcentagem2 = (float)(branco*100)/total;
+	
+	printf("Porcentagem de votos em branco: %.2f%%\n", porcentagem2);
+	
+
 
 }
 

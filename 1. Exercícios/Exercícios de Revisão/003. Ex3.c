@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 
-main() {
+void main() {
 
 	float nota1, nota2, media;
 

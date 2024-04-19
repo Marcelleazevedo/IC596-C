@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-main() {
+void main() {
 
 	int N, i, num, menornum, maiornum, somanum;
 
