@@ -13,11 +13,11 @@
 
 void zeraPares(int *vet) {
 
-	for (int i = 0; i <= 3 ; i++) {
+	for (int i = 0; i < 30 ; i++) {
 
-		if (vet[i] % 2 == 0) {
+		if (*(vet+i) % 2 == 0) {
 
-			vet[i] = 0;
+			*(vet+i) = 0;
 
 		} // Final do if
 
@@ -30,9 +30,9 @@ void zeraPares(int *vet) {
 
 void dobra(int *vet) {
 
-	for (int i = 0; i <= 3; i++) {
+	for (int i = 0; i < 30; i++) {
 
-		vet[i] *= 2; // Esse código é o mesmo que vet[i] = vet[i] * 2;
+		*(vet+i) *= 2; // Esse código é o mesmo que vet[i] = vet[i] * 2;
 
 	} // Final do for
 
@@ -44,9 +44,9 @@ void dobra(int *vet) {
 
 	void soma(int *vet1, int *vet2) {
 
-		for (int i = 0; i <= 3; i++) {
+		for (int i = 0; i < 30; i++) {
 
-			vet1[i] += vet2[i]; // Esse código é o mesmo que vet1[i] = vet1[i] + vet2[i];
+			*(vet1+i) += *(vet2+i); // Esse código é o mesmo que vet1[i] = vet1[i] + vet2[i];
 
 		} // Final do for
 
@@ -59,7 +59,7 @@ void main() {
 
 	printf("\nPreencha os valores do primeiro vetor:\n");
 
-	for (i = 0; i <= 3; i++) {
+	for (i = 0; i < 30; i++) {
 
 		printf("Digite o %dº valor do vetor: ", i+1);
 		scanf("%d", &vetor1[i]);
@@ -75,7 +75,7 @@ void main() {
 
 	printf("\nOs números pares do primeiro vetor:\n");
 
-	for (i = 0; i <= 3; i++) {
+	for (i = 0; i < 30; i++) {
 
 		printf("%dº valor: %d\n", i+1, vetor1[i]);
 
@@ -87,7 +87,7 @@ void main() {
 
 	dobra(vetor1Copia1);
 
-	for (i = 0; i <= 3; i++) {
+	for (i = 0; i < 30; i++) {
 
 		printf("%dº valor: %d\n", i+1, vetor1Copia1[i]);
 
@@ -98,7 +98,7 @@ void main() {
 
 	printf("\nPreencha os valores do segundo vetor:\n");
 
-	for (i = 0; i <= 3; i++) {
+	for (i = 0; i < 30; i++) {
 
 		printf("Digite o %dº valor do vetor: ", i+1);
 		scanf("%d", &vetor2[i]);
@@ -109,7 +109,7 @@ void main() {
 
 	printf("\nA soma do primeiro e segundo vetor que estão armazenados no primeiro vetor:\n");
 
-	for (i = 0; i <= 3; i++) {
+	for (i = 0; i < 30; i++) {
 
 		printf("%dº valor: %d\n", i+1, vetor1Copia2[i]);
 
